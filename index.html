@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/weather-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Weather Dashboard</title>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 header text-center">
+                <h1 class="my-3">
+                    Weather Dashboard
+                </h1>
+            </div>
+        </div>
+        <div class="row main-row">
+            <div class="col-sm-2 side-nav">
+                <div class="row">
+                    <div class="col-12">
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-8 px-0">
+                        <form id="search-form" >
+                            <input type="text" id="search" class="w-100 h-100" placeholder="Search for a city!">
+                    </div>
+                    <div class="col-sm-4 px-0">
+                        <button id="search-btn" class="btn btn-primary w-100 h-100 p-0">Search</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 px-0">
+                        <button id="clear-btn" class="btn btn-primary w-100 p-0">Clear Searches</button>
+                    </div>
+                </div>
+                <div class="row my-3">
+                    <div id="past-cities" class="col-12">
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-10">
+                <div class="row">
+                    <div class="col-sm-8 main-screen d-flex flex-column pl-3 py-auto my-auto">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="row">
+                                    <div class="col-12 hide">
+                                        <h6>Location:</h6>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div id="name" class="col-12 clear">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-9">
+                                <div class="row">
+                                    <div id="current-temp" class="col-12 clear">
+
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div id="high" class="col-12 clear">
+
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div id="low" class="col-12 clear">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="temp-img" class="col-3 clear">
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div id="current-conditions" class="col-12 clear">
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div id="uvInd" class="col-12 clear">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 ajaxtest2 text-center hide">
+                        <div class="row mt-auto">
+                            <div class="col-12">
+                                <h1>
+                                    Current Conditions
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="row my-auto">
+                            <div id="weather-img" class="col-12 clear">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="five-day-forcast" class="row text-center hide py-2">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="./weatherIcons.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

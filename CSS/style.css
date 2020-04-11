@@ -1,0 +1,104 @@
+body {
+    background-color: #5b5d61;
+    font-family: "Montserrat";
+}
+
+.main-screen{
+    height: 300px;
+    justify-content: space-evenly;
+    background-color: #5b5d61;
+    color: black;
+}
+
+.main-screen p {
+    font-weight: 500;
+}
+
+.ajaxtest2 {
+    height: 300px;
+    background-color: #0ca0a0;
+}
+
+.btn-primary {
+    background-color: #5b5d61;
+    border-color: #5b5d61;
+    color: black;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    background-color: #8c8e94;
+    border-color: black;
+}
+
+.ajaxtest2 h1 {
+    color: black;
+}
+
+.header {
+    background-color: #0ca0a0;
+    color: black;
+}
+
+.side-nav p {
+    color: black;
+}
+
+.side-nav {
+    height: 90vh;
+    background-color: #0ca0a0;
+    overflow-y: auto;
+}
+
+.icon-i {
+    color: black;
+    width: 50px;
+}
+
+.hide {
+    display: none;
+}
+
+.uvInd {
+    padding: 3px;
+    background-color: blue;
+    border: 1px transparent solid;
+    border-radius: 5px;
+    color: white;
+}
+
+.favorable {
+    background-color: green;
+}
+
+.moderate {
+    background-color: yellow;
+    color: black;
+}
+
+.severe {
+    background-color: red;
+}
+
+.btn {
+    transition: none;
+}
+
+#five-day-forcast {
+    background-color: #5b5d61;
+    border-top: black 10px solid;
+}
+
+.forecast-card {
+    border: black 3px solid;
+    border-radius: 5px;
+    padding: 0px;
+    margin: 0px 5px 0px 5px;
+    color: black;
+}
+
+.forecast-card .col {
+    padding: 0px;
+}
+
+
+
